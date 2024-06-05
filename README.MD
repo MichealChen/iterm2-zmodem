@@ -2,6 +2,11 @@
 
 在 mac 下，实现与服务器进行便捷的文件上传和下载操作。
 
+原作基础上解决了报错：
+```bash
+/usr/local/bin/iterm2-send-zmodem.sh: line 18: /usr/local/bin/sz: No such file or directory
+```
+原因是 homebrew 安装的 lrzsz 目录需要放入脚本中
 
 # 步骤
 
