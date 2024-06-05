@@ -32,11 +32,13 @@ chmod 777 /usr/local/bin/iterm2-*
         Action: Run Silent Coprocess
         Parameters: /usr/local/bin/iterm2-send-zmodem.sh
         Instant: checked
+        Enable: checked
 2.第二条
         Regular expression: \*\*B00000000000000
         Action: Run Silent Coprocess
         Parameters: /usr/local/bin/iterm2-recv-zmodem.sh
         Instant: checked
+        Enable: checked
 ```
 
 ![如图](https://github.com/aikuyun/iterm2-zmodem/blob/master/imgs/01.png)
